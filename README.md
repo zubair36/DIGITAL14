@@ -25,3 +25,9 @@ NOTE: After executing each scenario, check the "Data.txt" file, it should be upd
 =============================TO Test the Unit Tests Follow below steps=============================
 1) Open the TestOperationalHandler.java class and uncomment the import import org.junit.Test
 2) uncomment each test method one by one i.e. "testLowerCase" and test by doing the right click and select "Run-As -> Junit Test" option
+
+
+To add any new feature in future, just follow the below steps
+1) add/define the required feature in form of new method in OperationHandler.java class as existing methods are added
+2) in switch statement of same class define a new CASE for this feature i.e. case: 15 and call the new feature method.
+3) In Main.java class, add the new option value i.e. 15.
